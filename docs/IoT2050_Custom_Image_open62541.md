@@ -170,7 +170,7 @@ UA_Server_run(server, &(UA_Boolean){false});             // ③ start the server
 UA_Server_delete(server);                                // ④ clean up and exit
 ```
 
-![Minimal open62541 Server verification principle](./img/open62541_最小Server验证原理.svg)
+![Minimal open62541 Server verification principle](./img/open62541_Minimal_Server_Verification_Principle.svg)
 
 **What it verifies (installation level)**:
 - ✅ Headers exist (`#include <open62541/server.h>` compiles) → `-dev` package installed correctly
