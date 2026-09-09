@@ -12,7 +12,8 @@ Hands-on guides for the **Siemens SIMATIC IOT2050** industrial IoT gateway — f
 - [Run the Official Image on Win11 + WSL2 + QEMU](docs/IoT2050_WSL2_QEMU_Official_Script.md) — Official script, no real hardware required.
 - [Enlarge the QEMU Disk Image (.wic)](docs/IoT2050_QEMU_WIC_Resize.md) — Two approaches: 4.9G → 8G / 20G.
 
-### Industrial Communication (OPC UA / S7-1200)
+### Industrial Control & Communication (CODESYS / OPC UA / S7-1200)
+- [Turn Your IoT2050 into a SoftPLC with CODESYS](docs/IoT2050_CODESYS_SoftPLC.md) — Install CODESYS Control for Linux ARM64 SL: RT image build → one-click deploy → program running.
 - [IoT2050 ↔ S7-1200 OPC UA Communication](docs/IoT2050_S7-1200_OPC_UA_Communication.md) — Full flow with an open62541 client.
 - [S7-1200 Data to Cloud](docs/S7-1200_Data_to_Cloud.md) — 1000-point acquisition, SQLite archiving, MQTT reporting, with source code & 4 real-world findings.
 
